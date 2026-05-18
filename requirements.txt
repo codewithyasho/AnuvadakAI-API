@@ -1,0 +1,40 @@
+
+# ── Audio / Video acquisition ─────────────────────────────────────────────────
+pydub                   # Audio file manipulation / format conversion
+ffmpeg-python             # FFmpeg bindings (FFmpeg binary must be installed separately)
+
+# ── Speech-to-Text (local Whisper) ────────────────────────────────────────────
+faster-whisper          # Faster Whisper for AMD GPU user (optional)
+openai-whisper          # OpenAI Whisper (runs locally)
+torch                      # PyTorch backend for Whisper
+torchaudio                # Audio utilities for PyTorch
+torchvision                # Computer vision utilities for PyTorch (optional, for video processing)
+
+# ── Translation (Hindi → English) ─────────────────────────────────────────────
+deep-translator           # Lightweight translation wrapper (Google backend)
+
+
+langchain
+langchain-text-splitters
+langchain-core
+langchain-community
+langchain-mistralai        
+langchain-groq      
+mistralai         
+groq         
+sentence-transformers
+langchain-huggingface  
+tiktoken 
+streamlit
+streamlit-extras
+watchdog
+reportlab
+fpdf2
+python-dotenv              
+numpy
+tqdm                      
+requests
+fastapi
+uvicorn
+python-multipart
+
